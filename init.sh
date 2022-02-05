@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # Trap ctrl+c so we can clean up background tasks
 trap "clean_exit" INT TERM ERR EXIT

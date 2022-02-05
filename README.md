@@ -54,7 +54,7 @@ This guide expects that you...
 To build the Docker container, run the following command:
 
 ```bash
-sudo docker build --label rtl_mus -t "jasongaunt/rtl_mus:1.0"
+sudo docker build --label rtl_mus -t "jasongaunt/rtl_mus:1.0" .
 ```
 
 This won't take long and will then provide you with a local Docker image you can run.
